@@ -3,7 +3,7 @@ Use Pulsar as a remote storage database for Prometheus  (remote write only)
 
 Prometheus-pulsar-adapter is a service which receives [Prometheus](https://github.com/prometheus) metrics through [`remote_write`](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#remote_write), marshal into JSON and sends them into [Pulsar](https://github.com/apache/pulsar).  
 
-`Prometheus-pulsar-adapter`  uses `Prometheus-kafka-adapter` code to a large extent, thanks to `Prometheus-kafka-adapter team`  
+`Prometheus-pulsar-adapter`  uses [Prometheus-kafka-adapter](https://github.com/Telefonica/prometheus-kafka-adapter) code to a large extent, thanks to `Prometheus-kafka-adapter team`  
 
 ## output
 
